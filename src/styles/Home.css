@@ -1,0 +1,51 @@
+/* Reset default margin, padding, and font */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Set the background color for the entire body */
+body {
+  background-color: #444444;
+}
+
+.homepage {
+  margin-left: 5vw;
+  margin-top: 15vw;
+  color: white;
+  width: 35vw;
+}
+
+.hello {
+  font-size: 2rem;
+}
+
+.hellop2 {
+  font-size: 3rem;
+}
+
+.projectLink {
+  background-color: #79a27b;
+  margin-top: 3vw;
+  color: white;
+  border: 5px solid black; /* Set border width and style */
+  width: 17vw;
+  height: 5vw;
+  font-size: 1.5rem;
+}
+
+.projectLink:hover {
+  color: black;
+}
+
+.circleBox {
+  position: absolute;
+  top: 150px;
+  height: 35vw;
+  left: 50vw;
+  background-color: white;
+  width: 25vw;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

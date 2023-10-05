@@ -1,0 +1,66 @@
+/* about.css */
+
+/* Container */
+.about-container {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9; /* Background color for the entire container */
+    border: 1px solid #ddd; /* Border for the container */
+    border-radius: 5px; /* Rounded corners for the container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    text-align: left;
+    color: #333; /* Text color */
+  }
+  
+  /* Headings */
+  .about-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .about-container h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Introduction */
+  .about-container p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Hobbies and Education Boxes */
+  .about-container section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff; /* Background color for each section */
+    border: 1px solid #ddd; /* Border for each section */
+    border-radius: 5px; /* Rounded corners for each section */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+  }
+  
+  /* Hobbies and Education Lists */
+  .about-container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  
+  /* Images */
+  .about-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Links (if any) */
+  .about-container a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+  }
+  
+  .about-container a:hover {
+    text-decoration: underline;
+  }
+  

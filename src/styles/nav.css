@@ -1,0 +1,50 @@
+/* Reset default margin, padding, and font */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Set the background color for the entire body */
+  
+  /* Style the top bar */
+  .topBar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center; /* Vertically center the content within the top bar */
+    justify-content: space-between; /* Horizontally space elements evenly */
+    background-color: #FFFFFF; /* Set a background color for the top bar */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+  }
+  
+  /* Style the links in the top bar */
+  .topBar a {
+    text-decoration: none;
+    color:  #666666;
+    font-size: 20px;
+    padding: 0 1.5rem;
+  }
+  
+  .topBar a:hover{
+    color: black;
+  }
+  
+  .linkedin-button {
+  /* LinkedIn blue */
+    color: white;
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .linkedin-button img {
+    width: 25px; /* Adjust the size of the LinkedIn logo as needed */
+    margin-right: 10px; /* Add spacing between the logo and text */
+  }
+  
+  .linkedin-button:hover {
+    background-color: lightgray; /* Darker blue on hover */
+  }
