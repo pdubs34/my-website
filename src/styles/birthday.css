@@ -1,0 +1,13 @@
+.birthday-holder{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.play-button {
+    display: block; /* This makes the button sit on its own line */
+    margin: 0 auto; /* This centers the button if your .birthday-holder is set to flex or block */
+    /* Additional styling for the button */
+  }
