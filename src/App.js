@@ -15,11 +15,11 @@ export default function App() {
     <Routes>
     {/* <Route path="/" element={<Nav />}> */}
       <Route path="/">
-        <Route index element={<Home />} />
+        <Route index element={<Birthday />} />
         <Route exact path="about" element={<About />} />
         <Route exact path="skills" element={<Skills />} />
         <Route exact path="contact" element={<Contact />} />
-        <Route exact path="birthday" element={<Birthday/>}/>
+        {/* <Route exact path="birthday" element={<Birthday/>}/> */}
       </Route>
     </Routes>
   </BrowserRouter>
